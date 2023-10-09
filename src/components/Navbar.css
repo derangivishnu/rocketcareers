@@ -1,0 +1,43 @@
+
+
+.navbar {
+    background-color: blue; 
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+    
+  }
+  
+  .logo img {
+    height: 50px; 
+    width: 100px;
+    border-radius: 8px;
+    margin-left: 150px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 50px; 
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white; 
+    font-size: x-large;
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+  
+   
+    &:hover {
+      color: #ff9900; 
+    }
+  }
+  
